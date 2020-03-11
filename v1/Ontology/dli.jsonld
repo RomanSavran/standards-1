@@ -1668,7 +1668,7 @@
   "https://standards.lifeengine.io/v1/Vocabulary/nest" : [ {
     "@id" : "https://standards.lifeengine.io/v1/Vocabulary/metadata"
   }, {
-    "@id" : "https://standards.oftrust.net/v1/Vocabulary/data"
+    "@id" : "https://standards.lifeengine.io/v1/Vocabulary/data"
   } ],
   "https://standards.lifeengine.io/v1/Vocabulary/readonly" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1710,7 +1710,7 @@
     "@value" : "unstable"
   } ],
   "https://standards.lifeengine.io/v1/Vocabulary/nest" : [ {
-    "@id" : "https://standards.oftrust.net/v1/Vocabulary/data"
+    "@id" : "https://standards.lifeengine.io/v1/Vocabulary/data"
   } ],
   "https://standards.lifeengine.io/v1/Vocabulary/readonly" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
