@@ -1667,8 +1667,6 @@
   } ],
   "https://standards.lifeengine.io/v1/Vocabulary/nest" : [ {
     "@id" : "https://standards.lifeengine.io/v1/Vocabulary/metadata"
-  }, {
-    "@id" : "https://standards.lifeengine.io/v1/Vocabulary/data"
   } ],
   "https://standards.lifeengine.io/v1/Vocabulary/readonly" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -1708,9 +1706,6 @@
   } ],
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@value" : "unstable"
-  } ],
-  "https://standards.lifeengine.io/v1/Vocabulary/nest" : [ {
-    "@id" : "https://standards.lifeengine.io/v1/Vocabulary/data"
   } ],
   "https://standards.lifeengine.io/v1/Vocabulary/readonly" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
