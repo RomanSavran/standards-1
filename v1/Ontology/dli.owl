@@ -21,7 +21,7 @@
         <terms:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital Living International Oy</terms:publisher>
         <terms:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO</terms:rights>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital Living Core Ontology</terms:title>
-        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owl</vann:preferredNamespacePrefix>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dli</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://standards.lifeengine.io/v1/Vocabulary/</vann:preferredNamespaceUri>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ontology used in the Digital Living LifeEngine APIs.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital Living Core Ontology</rdfs:label>
