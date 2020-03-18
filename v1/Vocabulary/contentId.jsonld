@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
@@ -40,9 +40,9 @@
         }
     },
     "contentId": {
-        "@id": "pot:contentId",
+        "@id": "dli:contentId",
         "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
+        "subPropertyOf": "dli:topDataProperty",
         "rdfs:label": {
             "en-us": "Content ID",
             "fi-fi": "Sisällön ID"
@@ -50,11 +50,11 @@
         "rdfs:comment": {
             "en-us": "Data content Id"
         },
-        "pot:valueType": [
+        "dli:valueType": [
             "xsd:string"
         ],
         "domain": [
-            "pot:AtDataProduct"
+            "dli:AtDataProduct"
         ]
     }
 }

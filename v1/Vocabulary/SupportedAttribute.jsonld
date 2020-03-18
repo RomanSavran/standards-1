@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
@@ -40,16 +40,16 @@
         }
     },
     "supportedAttribute": {
-        "@id": "pot:supportedAttribute",
+        "@id": "dli:supportedAttribute",
         "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
+        "subPropertyOf": "dli:topDataProperty",
         "rdfs:label": {
             "fi-fi": "Tuetut attribuutit"
         },
         "rdfs:comment": {
             "fi-fi": "Attribuutit jotka tiedetään liittyvän identiteettiin"
         },
-        "pot:valueType": [
+        "dli:valueType": [
             "xsd:string"
         ]
     }

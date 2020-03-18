@@ -3,36 +3,36 @@
         "@version": 1.1,
         "@vocab": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/Link/AtDataProduct",
         "@classDefinition": "https://standards-ontotest.lifeengine.io/v1/ClassDefinitions/Link/AtDataProduct",
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
         "data": {
-            "@id": "pot:data",
+            "@id": "dli:data",
             "@nest": "data"
         },
         "metadata": {
-            "@id": "pot:metadata"
+            "@id": "dli:metadata"
         },
-        "updatedAt": {
-            "@id": "pot:updatedAt",
+        "updatedBy": {
+            "@id": "dli:updatedBy",
             "@nest": "metadata"
         },
-        "contentId": {
-            "@id": "pot:contentId",
-            "@nest": "data"
+        "updatedAt": {
+            "@id": "dli:updatedAt",
+            "@nest": "metadata"
         },
         "createdBy": {
-            "@id": "pot:createdBy",
+            "@id": "dli:createdBy",
             "@nest": "metadata"
         },
         "createdAt": {
-            "@id": "pot:createdAt",
+            "@id": "dli:createdAt",
             "@nest": "metadata"
         },
-        "updatedBy": {
-            "@id": "pot:updatedBy",
-            "@nest": "metadata"
+        "contentId": {
+            "@id": "dli:contentId",
+            "@nest": "data"
         }
     }
 }

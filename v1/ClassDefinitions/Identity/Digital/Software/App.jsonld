@@ -5,7 +5,7 @@
             "@id": "http://www.w3.org/2001/XMLSchema#",
             "@prefix": true
         },
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
@@ -32,10 +32,10 @@
         },
         "@vocab": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/Identity/Digital/Software/App"
     },
-    "pot:supportedClass": {
-        "@id": "pot:Identity/Digital/Software/App",
+    "dli:supportedClass": {
+        "@id": "dli:Identity/Digital/Software/App",
         "@type": "owl:Class",
-        "subClassOf": "pot:Software",
+        "subClassOf": "dli:Software",
         "rdfs:label": {
             "en-us": "Application",
             "fi-fi": "Sovellus"
@@ -44,11 +44,11 @@
             "en-us": "A software application mobile or web",
             "fi-fi": "Ohjelmisto sovellus"
         },
-        "pot:supportedAttribute": {
+        "dli:supportedAttribute": {
             "createdAt": {
-                "@id": "pot:createdAt",
+                "@id": "dli:createdAt",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "en-us": "Creation time",
                     "fi-fi": "Luomisaika"
@@ -56,16 +56,16 @@
                 "rdfs:comment": {
                     "en-us": "Time when the data is created"
                 },
-                "pot:required": false,
-                "pot:readonly": true,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": true,
+                "dli:valueType": [
                     "xsd:dateTime"
                 ]
             },
             "createdBy": {
-                "@id": "pot:createdBy",
+                "@id": "dli:createdBy",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "en-us": "Creator",
                     "fi-fi": "Identiteetin luoja"
@@ -73,32 +73,32 @@
                 "rdfs:comment": {
                     "en-us": "Creator of and identity "
                 },
-                "pot:required": false,
-                "pot:readonly": true,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": true,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             },
             "data": {
-                "@id": "pot:data",
+                "@id": "dli:data",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "en-us": "Data"
                 },
                 "rdfs:comment": {
                     "en-us": "Data container"
                 },
-                "pot:required": true,
-                "pot:readonly": false,
-                "pot:valueType": [
+                "dli:required": true,
+                "dli:readonly": false,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             },
             "description": {
-                "@id": "pot:description",
+                "@id": "dli:description",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "en-us": "Description",
                     "fi-fi": "Kuvaus"
@@ -106,16 +106,16 @@
                 "rdfs:comment": {
                     "en-us": "Description of an app"
                 },
-                "pot:required": false,
-                "pot:readonly": false,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": false,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             },
             "iconUrl": {
-                "@id": "pot:iconUrl",
+                "@id": "dli:iconUrl",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "en-us": "Icon URL",
                     "fi-fi": "Ikonin URL"
@@ -123,32 +123,32 @@
                 "rdfs:comment": {
                     "en-us": "Icon URL of an app"
                 },
-                "pot:required": false,
-                "pot:readonly": false,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": false,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             },
             "metadata": {
-                "@id": "pot:metadata",
+                "@id": "dli:metadata",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "en-us": "Metadata"
                 },
                 "rdfs:comment": {
                     "en-us": "Metadata container"
                 },
-                "pot:required": false,
-                "pot:readonly": true,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": true,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             },
             "name": {
-                "@id": "pot:name",
+                "@id": "dli:name",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "fi-fi": "Nimi",
                     "en-us": "Name"
@@ -156,16 +156,16 @@
                 "rdfs:comment": {
                     "en-us": "Name of the data product"
                 },
-                "pot:required": false,
-                "pot:readonly": false,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": false,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             },
             "privacyPolicyUrl": {
-                "@id": "pot:privacyPolicyUrl",
+                "@id": "dli:privacyPolicyUrl",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "en-us": "Privacy policy URL",
                     "fi-fi": "Tietousojaselosteen URL"
@@ -173,16 +173,16 @@
                 "rdfs:comment": {
                     "en-us": "Privacy policy URL of an app"
                 },
-                "pot:required": false,
-                "pot:readonly": false,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": false,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             },
             "updatedBy": {
-                "@id": "pot:updatedBy",
+                "@id": "dli:updatedBy",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "fi-fi": "Identieetin päivittäjä",
                     "en-us": "Updater"
@@ -190,16 +190,16 @@
                 "rdfs:comment": {
                     "en-us": "Updater of an identity "
                 },
-                "pot:required": false,
-                "pot:readonly": true,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": true,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             },
             "webpageUrl": {
-                "@id": "pot:webpageUrl",
+                "@id": "dli:webpageUrl",
                 "@type": "owl:DatatypeProperty",
-                "subPropertyOf": "pot:topDataProperty",
+                "subPropertyOf": "dli:topDataProperty",
                 "rdfs:label": {
                     "en-us": "Webpage URL",
                     "fi-fi": "Websivun URL"
@@ -207,9 +207,9 @@
                 "rdfs:comment": {
                     "en-us": "Webpage URL of an app"
                 },
-                "pot:required": false,
-                "pot:readonly": false,
-                "pot:valueType": [
+                "dli:required": false,
+                "dli:readonly": false,
+                "dli:valueType": [
                     "xsd:string"
                 ]
             }

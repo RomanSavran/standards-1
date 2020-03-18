@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
@@ -39,105 +39,10 @@
             ]
         }
     },
-    "data": {
-        "@id": "pot:data",
-        "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
-        "rdfs:label": {
-            "en-us": "Data"
-        },
-        "rdfs:comment": {
-            "en-us": "Data container"
-        },
-        "pot:valueType": [
-            "xsd:string"
-        ],
-        "domain": [
-            "pot:Identity",
-            "pot:Link"
-        ]
-    },
-    "createdAt": {
-        "@id": "pot:createdAt",
-        "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
-        "rdfs:label": {
-            "en-us": "Creation time",
-            "fi-fi": "Luomisaika"
-        },
-        "rdfs:comment": {
-            "en-us": "Time when the data is created"
-        },
-        "pot:valueType": [
-            "xsd:dateTime"
-        ],
-        "domain": [
-            "pot:Identity",
-            "pot:Link"
-        ]
-    },
-    "createdBy": {
-        "@id": "pot:createdBy",
-        "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
-        "rdfs:label": {
-            "en-us": "Creator",
-            "fi-fi": "Identiteetin luoja"
-        },
-        "rdfs:comment": {
-            "en-us": "Creator of and identity "
-        },
-        "pot:valueType": [
-            "xsd:string"
-        ],
-        "domain": [
-            "pot:Identity",
-            "pot:Link"
-        ]
-    },
-    "metadata": {
-        "@id": "pot:metadata",
-        "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
-        "rdfs:label": {
-            "en-us": "Metadata"
-        },
-        "rdfs:comment": {
-            "en-us": "Metadata container"
-        },
-        "pot:valueType": [
-            "xsd:string"
-        ],
-        "domain": [
-            "pot:Identity",
-            "pot:Link"
-        ]
-    },
-    "name": {
-        "@id": "pot:name",
-        "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
-        "rdfs:label": {
-            "fi-fi": "Nimi",
-            "en-us": "Name"
-        },
-        "rdfs:comment": {
-            "en-us": "Name of the data product"
-        },
-        "pot:valueType": [
-            "xsd:string"
-        ],
-        "domain": [
-            "pot:Identity",
-            "pot:Person",
-            "pot:App",
-            "pot:DataProduct"
-        ]
-    },
     "updatedBy": {
-        "@id": "pot:updatedBy",
+        "@id": "dli:updatedBy",
         "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
+        "subPropertyOf": "dli:topDataProperty",
         "rdfs:label": {
             "fi-fi": "Identieetin päivittäjä",
             "en-us": "Updater"
@@ -145,18 +50,113 @@
         "rdfs:comment": {
             "en-us": "Updater of an identity "
         },
-        "pot:valueType": [
+        "dli:valueType": [
             "xsd:string"
         ],
         "domain": [
-            "pot:Identity",
-            "pot:Link"
+            "dli:Identity",
+            "dli:Link"
+        ]
+    },
+    "name": {
+        "@id": "dli:name",
+        "@type": "owl:DatatypeProperty",
+        "subPropertyOf": "dli:topDataProperty",
+        "rdfs:label": {
+            "fi-fi": "Nimi",
+            "en-us": "Name"
+        },
+        "rdfs:comment": {
+            "en-us": "Name of the data product"
+        },
+        "dli:valueType": [
+            "xsd:string"
+        ],
+        "domain": [
+            "dli:Identity",
+            "dli:Person",
+            "dli:App",
+            "dli:DataProduct"
+        ]
+    },
+    "createdBy": {
+        "@id": "dli:createdBy",
+        "@type": "owl:DatatypeProperty",
+        "subPropertyOf": "dli:topDataProperty",
+        "rdfs:label": {
+            "en-us": "Creator",
+            "fi-fi": "Identiteetin luoja"
+        },
+        "rdfs:comment": {
+            "en-us": "Creator of and identity "
+        },
+        "dli:valueType": [
+            "xsd:string"
+        ],
+        "domain": [
+            "dli:Identity",
+            "dli:Link"
+        ]
+    },
+    "metadata": {
+        "@id": "dli:metadata",
+        "@type": "owl:DatatypeProperty",
+        "subPropertyOf": "dli:topDataProperty",
+        "rdfs:label": {
+            "en-us": "Metadata"
+        },
+        "rdfs:comment": {
+            "en-us": "Metadata container"
+        },
+        "dli:valueType": [
+            "xsd:string"
+        ],
+        "domain": [
+            "dli:Identity",
+            "dli:Link"
+        ]
+    },
+    "createdAt": {
+        "@id": "dli:createdAt",
+        "@type": "owl:DatatypeProperty",
+        "subPropertyOf": "dli:topDataProperty",
+        "rdfs:label": {
+            "en-us": "Creation time",
+            "fi-fi": "Luomisaika"
+        },
+        "rdfs:comment": {
+            "en-us": "Time when the data is created"
+        },
+        "dli:valueType": [
+            "xsd:dateTime"
+        ],
+        "domain": [
+            "dli:Identity",
+            "dli:Link"
+        ]
+    },
+    "data": {
+        "@id": "dli:data",
+        "@type": "owl:DatatypeProperty",
+        "subPropertyOf": "dli:topDataProperty",
+        "rdfs:label": {
+            "en-us": "Data"
+        },
+        "rdfs:comment": {
+            "en-us": "Data container"
+        },
+        "dli:valueType": [
+            "xsd:string"
+        ],
+        "domain": [
+            "dli:Identity",
+            "dli:Link"
         ]
     },
     "Liability": {
-        "@id": "pot:Identity/Virtual/Liability",
+        "@id": "dli:Identity/Virtual/Liability",
         "@type": "owl:Class",
-        "subClassOf": "pot:Virtual",
+        "subClassOf": "dli:Virtual",
         "rdfs:label": {
             "en-us": "Liability",
             "fi-fi": "Vastuu"

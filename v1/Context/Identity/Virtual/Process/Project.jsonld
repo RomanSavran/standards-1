@@ -3,31 +3,31 @@
         "@version": 1.1,
         "@vocab": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/Identity/Virtual/Process/Project",
         "@classDefinition": "https://standards-ontotest.lifeengine.io/v1/ClassDefinitions/Identity/Virtual/Process/Project",
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
         "data": {
-            "@id": "pot:data",
+            "@id": "dli:data",
             "@nest": "data"
         },
         "metadata": {
-            "@id": "pot:metadata"
+            "@id": "dli:metadata"
         },
-        "createdAt": {
-            "@id": "pot:createdAt",
-            "@nest": "metadata"
-        },
-        "createdBy": {
-            "@id": "pot:createdBy",
+        "updatedBy": {
+            "@id": "dli:updatedBy",
             "@nest": "metadata"
         },
         "name": {
-            "@id": "pot:name",
+            "@id": "dli:name",
             "@nest": "data"
         },
-        "updatedBy": {
-            "@id": "pot:updatedBy",
+        "createdBy": {
+            "@id": "dli:createdBy",
+            "@nest": "metadata"
+        },
+        "createdAt": {
+            "@id": "dli:createdAt",
             "@nest": "metadata"
         }
     }
