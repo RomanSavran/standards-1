@@ -65,7 +65,7 @@
     "@value" : "Digital Living Core Ontology"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
-    "@value" : "owl"
+    "@value" : "dli"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@value" : "https://standards.lifeengine.io/v1/Vocabulary/"
