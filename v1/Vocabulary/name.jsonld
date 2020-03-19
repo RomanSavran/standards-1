@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
@@ -40,9 +40,9 @@
         }
     },
     "name": {
-        "@id": "pot:name",
+        "@id": "dli:name",
         "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
+        "subPropertyOf": "dli:topDataProperty",
         "rdfs:label": {
             "fi-fi": "Nimi",
             "en-us": "Name"
@@ -50,14 +50,14 @@
         "rdfs:comment": {
             "en-us": "Name of the data product"
         },
-        "pot:valueType": [
+        "dli:valueType": [
             "xsd:string"
         ],
         "domain": [
-            "pot:Identity",
-            "pot:Person",
-            "pot:App",
-            "pot:DataProduct"
+            "dli:Identity",
+            "dli:Person",
+            "dli:App",
+            "dli:DataProduct"
         ]
     }
 }

@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
@@ -40,9 +40,9 @@
         }
     },
     "privacyPolicyUrl": {
-        "@id": "pot:privacyPolicyUrl",
+        "@id": "dli:privacyPolicyUrl",
         "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
+        "subPropertyOf": "dli:topDataProperty",
         "rdfs:label": {
             "en-us": "Privacy policy URL",
             "fi-fi": "Tietousojaselosteen URL"
@@ -50,11 +50,11 @@
         "rdfs:comment": {
             "en-us": "Privacy policy URL of an app"
         },
-        "pot:valueType": [
+        "dli:valueType": [
             "xsd:string"
         ],
         "domain": [
-            "pot:App"
+            "dli:App"
         ]
     }
 }

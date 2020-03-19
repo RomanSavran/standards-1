@@ -3,48 +3,48 @@
         "@version": 1.1,
         "@vocab": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/Identity/Digital/Software/App",
         "@classDefinition": "https://standards-ontotest.lifeengine.io/v1/ClassDefinitions/Identity/Digital/Software/App",
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
         "data": {
-            "@id": "pot:data",
+            "@id": "dli:data",
             "@nest": "data"
         },
         "metadata": {
-            "@id": "pot:metadata"
+            "@id": "dli:metadata"
         },
-        "iconUrl": {
-            "@id": "pot:iconUrl",
+        "updatedBy": {
+            "@id": "dli:updatedBy",
+            "@nest": "metadata"
+        },
+        "description": {
+            "@id": "dli:description",
             "@nest": "data"
         },
         "privacyPolicyUrl": {
-            "@id": "pot:privacyPolicyUrl",
-            "@nest": "data"
-        },
-        "webpageUrl": {
-            "@id": "pot:webpageUrl",
-            "@nest": "data"
-        },
-        "name": {
-            "@id": "pot:name",
-            "@nest": "data"
-        },
-        "description": {
-            "@id": "pot:description",
+            "@id": "dli:privacyPolicyUrl",
             "@nest": "data"
         },
         "createdBy": {
-            "@id": "pot:createdBy",
+            "@id": "dli:createdBy",
             "@nest": "metadata"
+        },
+        "iconUrl": {
+            "@id": "dli:iconUrl",
+            "@nest": "data"
+        },
+        "name": {
+            "@id": "dli:name",
+            "@nest": "data"
         },
         "createdAt": {
-            "@id": "pot:createdAt",
+            "@id": "dli:createdAt",
             "@nest": "metadata"
         },
-        "updatedBy": {
-            "@id": "pot:updatedBy",
-            "@nest": "metadata"
+        "webpageUrl": {
+            "@id": "dli:webpageUrl",
+            "@nest": "data"
         }
     }
 }

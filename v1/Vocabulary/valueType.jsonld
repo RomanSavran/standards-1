@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
@@ -40,10 +40,10 @@
         }
     },
     "valueType": {
-        "@id": "pot:valueType",
+        "@id": "dli:valueType",
         "@type": "owl:DatatypeProperty",
-        "subPropertyOf": "pot:topDataProperty",
-        "pot:valueType": [
+        "subPropertyOf": "dli:topDataProperty",
+        "dli:valueType": [
             "xsd:string"
         ]
     }

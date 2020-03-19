@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "pot": {
+        "dli": {
             "@id": "https://standards-ontotest.lifeengine.io/v1/Vocabulary/",
             "@prefix": true
         },
@@ -40,7 +40,7 @@
         }
     },
     "nest": {
-        "@id": "pot:nest",
+        "@id": "dli:nest",
         "@type": "owl:AnnotationProperty"
     }
 }
